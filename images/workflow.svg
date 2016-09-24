@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 480" enable-background="new 0 0 960 480" xml:space="preserve">
+<path fill="#553DB7" d="M554.3,378.9l-60.7,60.7c-4.7,4.7-12.3,4.7-17,0L416,378.9c-4.7-4.7-4.7-12.3,0-17l60.7-60.7
+	c4.7-4.7,12.3-4.7,17,0l60.7,60.7C558.9,366.6,558.9,374.2,554.3,378.9z"/>
+<g>
+	<path fill="#1E9EC1" d="M553.2,118.9l-60.7,60.7c-4.7,4.7-12.3,4.7-17,0l-60.7-60.7c-4.7-4.7-4.7-12.3,0-17l60.7-60.7
+		c4.7-4.7,12.3-4.7,17,0l60.7,60.7C557.9,106.6,557.9,114.2,553.2,118.9z"/>
+	<text transform="matrix(1 0 0 1 440.3476 120.9472)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="26.3431px">Staging</text>
+</g>
+<g>
+	<path fill="#0EAF29" d="M875.6,118.9l-60.7,60.7c-4.7,4.7-12.3,4.7-17,0l-60.7-60.7c-4.7-4.7-4.7-12.3,0-17l60.7-60.7
+		c4.7-4.7,12.3-4.7,17,0l60.7,60.7C880.2,106.6,880.2,114.2,875.6,118.9z"/>
+	<text transform="matrix(1 0 0 1 751.4766 119.6308)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="24.5869px">Production</text>
+</g>
+<g id="Arrow_7">
+	<text transform="matrix(1 0 0 1 459.416 382.709)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.7241px">Dev</text>
+</g>
+<text transform="matrix(1 0 0 1 86 370.2449)" fill="#4C4C4A" font-family="'MyriadPro-Regular'" font-size="22px">Code</text>
+<text transform="matrix(1 0 0 1 86 405.3264)" fill="#4C4C4A" font-family="'MyriadPro-Regular'" font-size="22px">Database</text>
+<g id="Arrow_1">
+	<g>
+		<polygon fill="#0096F2" points="392.5,322.7 395.2,319 209.4,179 212.5,174.8 398.4,314.8 401.2,311.1 407.7,325.1 		"/>
+	</g>
+	<g>
+		<polygon fill="#0096F2" points="428.3,302.2 425.1,306.5 235.6,163.7 232.8,167.5 226.2,153.3 241.7,155.7 238.8,159.5 		"/>
+	</g>
+	<g>
+		<polygon fill="#0096F2" points="373.5,119.6 373.6,115 260.6,113 260.7,107.8 373.7,109.8 373.8,105.1 387.2,112.6 		"/>
+	</g>
+	<g>
+		<polygon fill="#0096F2" points="693.9,136.1 694,131.5 581,129.5 581.1,124.2 694,126.2 694.1,121.6 707.6,129.1 		"/>
+	</g>
+	<g>
+		<polygon fill="#F4ED00" points="707.5,95.7 707.4,101 594.5,99 594.4,103.7 581,96.1 594.7,89.1 594.6,93.8 		"/>
+	</g>
+	<g>
+		<g>
+			<polygon fill="#F4ED00" points="491.5,270.5 484.2,284 476.9,270.5 481.6,270.5 481.6,195.8 486.8,195.8 486.8,270.5 			"/>
+		</g>
+	</g>
+	<g>
+		
+			<rect x="610.6" y="268.8" transform="matrix(0.792 -0.6105 0.6105 0.792 -38.2073 430.4482)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="606.2" y="272.2" transform="matrix(0.792 -0.6105 0.6105 0.792 -41.2016 428.4665)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="601.8" y="275.6" transform="matrix(0.792 -0.6105 0.6105 0.792 -44.1987 426.4731)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="619.7" y="261.8" transform="matrix(0.792 -0.6105 0.6105 0.792 -32.0454 434.5349)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="615" y="265.3" transform="matrix(0.792 -0.6105 0.6105 0.792 -35.1259 432.4934)" fill="#F4ED00" width="4.4" height="5"/>
+		
+			<rect x="624.1" y="258.4" transform="matrix(0.792 -0.6105 0.6105 0.792 -29.0493 436.5241)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="637.3" y="248.2" transform="matrix(0.792 -0.6105 0.6105 0.792 -20.0644 442.4789)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="632.9" y="251.6" transform="matrix(0.792 -0.6105 0.6105 0.792 -23.0562 440.5051)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="628.5" y="255" transform="matrix(0.792 -0.6105 0.6105 0.792 -26.0535 438.5116)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="592.9" y="282.4" transform="matrix(0.792 -0.6105 0.6105 0.792 -50.1901 422.4981)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="579.6" y="292.7" transform="matrix(0.792 -0.6105 0.6105 0.792 -59.2265 416.5027)" fill="#F4ED00" width="4.2" height="5"/>
+		
+			<rect x="570.7" y="299.6" transform="matrix(0.792 -0.6105 0.6105 0.792 -65.2827 412.4898)" fill="#F4ED00" width="4.2" height="5"/>
+		
+			<rect x="575.1" y="296.1" transform="matrix(0.792 -0.6105 0.6105 0.792 -62.2565 414.486)" fill="#F4ED00" width="4.2" height="5"/>
+		
+			<rect x="584.1" y="289.3" transform="matrix(0.792 -0.6105 0.6105 0.792 -56.1994 418.5046)" fill="#F4ED00" width="4.2" height="5"/>
+		
+			<rect x="588.5" y="285.8" transform="matrix(0.792 -0.6105 0.6105 0.792 -53.1846 420.5164)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="597.4" y="279" transform="matrix(0.792 -0.6105 0.6105 0.792 -47.1948 424.4839)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="641.8" y="244.8" transform="matrix(0.792 -0.6105 0.6105 0.792 -17.067 444.4724)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="566.2" y="303" transform="matrix(0.792 -0.6105 0.6105 0.792 -68.3239 410.4673)" fill="#F4ED00" width="4.2" height="5"/>
+		
+			<rect x="557.3" y="309.9" transform="matrix(-0.792 0.6105 -0.6105 -0.792 1193.1479 218.2379)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="561.8" y="306.5" transform="matrix(0.792 -0.6105 0.6105 0.792 -71.3479 408.4664)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="690.6" y="207.2" transform="matrix(0.792 -0.6105 0.6105 0.792 16.0572 466.4502)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="717.1" y="186.8" transform="matrix(0.792 -0.6105 0.6105 0.792 34.0313 478.3752)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="712.6" y="190.2" transform="matrix(0.792 -0.6105 0.6105 0.792 31.0349 476.3859)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="695" y="203.8" transform="matrix(0.792 -0.6105 0.6105 0.792 19.0529 468.4377)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="703.8" y="197" transform="matrix(0.792 -0.6105 0.6105 0.792 25.0443 472.4127)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="699.4" y="200.4" transform="matrix(0.792 -0.6105 0.6105 0.792 22.051 470.4314)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="708.2" y="193.6" transform="matrix(0.792 -0.6105 0.6105 0.792 28.04 474.4002)" fill="#F4ED00" width="4.1" height="5"/>
+		<polygon fill="#F4ED00" points="729.2,172.1 732.2,176 729.2,178.3 732.2,182.3 735.2,180 738,183.6 744.3,169.6 		"/>
+		<polygon fill="#F4ED00" points="555.1,312.5 548.8,317.4 551.8,321.3 558.1,316.5 		"/>
+		
+			<rect x="725.9" y="180" transform="matrix(0.792 -0.6105 0.6105 0.792 40.0255 482.3565)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="721.5" y="183.4" transform="matrix(0.792 -0.6105 0.6105 0.792 37.0297 480.369)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="650.6" y="238" transform="matrix(0.792 -0.6105 0.6105 0.792 -11.0732 448.4552)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="655" y="234.6" transform="matrix(0.792 -0.6105 0.6105 0.792 -8.0819 450.4289)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="686.2" y="210.6" transform="matrix(0.792 -0.6105 0.6105 0.792 13.0638 464.4688)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="646.2" y="241.4" transform="matrix(0.792 -0.6105 0.6105 0.792 -14.0708 446.4617)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="663.8" y="227.8" transform="matrix(0.792 -0.6105 0.6105 0.792 -2.0859 454.4178)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="659.4" y="231.2" transform="matrix(0.792 -0.6105 0.6105 0.792 -5.0862 452.4164)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="681.7" y="214" transform="matrix(0.792 -0.6105 0.6105 0.792 10.0629 462.4673)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="668.2" y="224.4" transform="matrix(0.792 -0.6105 0.6105 0.792 0.9077 456.3992)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="677.3" y="217.4" transform="matrix(0.792 -0.6105 0.6105 0.792 7.0723 460.4938)" fill="#F4ED00" width="4.1" height="5"/>
+		
+			<rect x="672.6" y="220.9" transform="matrix(0.792 -0.6105 0.6105 0.792 3.9898 458.4461)" fill="#F4ED00" width="4.4" height="5"/>
+	</g>
+</g>
+<rect x="27" y="352.2" fill="#0096F2" width="49" height="23.1"/>
+<rect x="27" y="387.3" fill="#F4ED00" width="49" height="23.1"/>
+<g>
+	<rect x="27" y="421.3" fill="#F4ED00" width="8" height="23.1"/>
+	<rect x="40" y="421.3" fill="#F4ED00" width="8.8" height="23.1"/>
+	<rect x="53.8" y="421.3" fill="#F4ED00" width="8.8" height="23.1"/>
+	<rect x="67.5" y="421.3" fill="#F4ED00" width="8.5" height="23.1"/>
+</g>
+<text transform="matrix(1 0 0 1 86 439.3316)" fill="#4C4C4A" font-family="'MyriadPro-Regular'" font-size="22px">One time only</text>
+<g opacity="0.9">
+	<g>
+		<path fill="#F05033" d="M231.1,118.9l-60.7,60.7c-4.7,4.7-12.3,4.7-17,0l-60.7-60.7c-4.7-4.7-4.7-12.3,0-17l60.7-60.7
+			c4.7-4.7,12.3-4.7,17,0l60.7,60.7C235.8,106.6,235.8,114.2,231.1,118.9z"/>
+	</g>
+	<path fill="#FFFFFF" d="M202.8,111.2c0,5.6-4.6,10.2-10.2,10.2c-5.6,0-10.2-4.6-10.2-10.2c0-1.2,0.2-2.3,0.6-3.4l-17.6-18.7l0-0.9
+		c-0.2,0.1-0.5,0.2-0.7,0.2l0.7,0.7l-2.3,41.2c2.9,1.7,4.8,4.7,5.1,8.2c0.3,5.6-3.9,10.5-9.6,10.8c-5.6,0.4-10.5-3.9-10.8-9.6
+		c-0.3-4.3,2.2-8.2,5.9-9.9l2.4-43c-2.6-1.8-4.3-4.9-4.3-8.3c0-1.1,0.2-2.2,0.5-3.3L135.9,58l6.8-6.5l16.3,17.3
+		c0.9-0.3,1.9-0.4,2.9-0.4c5.6,0,10.2,4.6,10.2,10.2c0,1.2-0.2,2.4-0.6,3.4l18.2,19.3c0.9-0.2,1.8-0.4,2.8-0.4
+		C198.2,101,202.8,105.6,202.8,111.2z"/>
+	<path fill="#F05033" d="M165.4,88.2l0,0.9l-0.7-0.7C164.9,88.4,165.2,88.3,165.4,88.2z"/>
+	<path fill="#F05033" d="M165.4,88.2l0,0.9l-0.7-0.7C164.9,88.4,165.2,88.3,165.4,88.2z"/>
+</g>
+</svg>
