@@ -3,8 +3,8 @@ layout: page
 ---
 <div class="ofa">
   <div class="cx7 fleft">
-    <p>Hey guys, I just want to share with you my thoughts, techniques and experience while working with WordPress from angle of an intermediate PHP developer in a simple mind. Hope it can help you, especially the beginners, find out a correct path to approach the WordPress world.</p>
-    <p>If you find out any mistake or what I'm missing, please <a href="mailto:wordpressstack@gmail.com?Subject=WordPress%20Stack">shoot me an email</a>!</p>
+    <p>Hey guys, before moving to new stacks, I just want to share with you my thoughts, techniques and experience while working with WordPress from angle of an intermediate PHP developer in a simple mind. Hope it can help you, especially the beginners, find out a correct path to approach the WordPress world.</p>
+    <p>If you find out any mistake or what I'm missing, please <a href="mailto:wordpressstack@gmail.com?Subject=WordPress%20Stack">shoot me an email</a>! You can also <a href="https://github.com/wpstack/wpstack.github.io/edit/master/homepage.md">edit the content directly</a>.</p>
   </div>
   <div class="cx5 fright">
     <table>
