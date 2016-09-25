@@ -48,7 +48,7 @@ Dive into WordPress, you will see how tightly things are connected. There're too
 
 Dive into WordPress, you will also find out a lot of [premature optimization](http://c2.com/cgi/wiki?PrematureOptimization), unnecessary re-computation, backwards compatibility, [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code), inconsistent conventions and a clumsy [event-driven architecture](https://en.wikipedia.org/wiki/Event-driven_architecture)...
 
-So, now you know, WordPress is good for [end user](https://en.wikipedia.org/wiki/End_user) and bad for developers. But that's none of our business. It works so client doesn't care. It's easy so entry level programmer doesn't matter. WordPress is for everyone, not just developers. Don't underestimate how important it is for average users who just want some business utilities which are easy to use. The real business for developers is: **Writing the efficient themes and plugins which are maintainable and expandable**.
+So, now you know, WordPress is good for [end user](https://en.wikipedia.org/wiki/End_user) and bad for developers. But that's none of our business. It works so client doesn't care. It's easy so entry level programmer doesn't matter. WordPress is for everyone, not just developers. Don't underestimate how important it is for average users who just want some business utilities which are easy to use. The real business for developers is: **Write efficient themes and plugins which are maintainable and expandable**.
 
 ## 3. WordPress and modern PHP
 
