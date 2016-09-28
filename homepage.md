@@ -1,54 +1,39 @@
 ---
-layout: page
+layout: home
 ---
-<div class="ofa">
-  <div class="cx7 fleft">
-    <p>Hey guys, before moving to new stacks, I just want to share with you my thoughts, techniques and experience while working with WordPress from angle of an intermediate PHP developer in a simple mind. Hope it can help you, especially the beginners, find out a correct path to approach the WordPress world.</p>
-    <p>If you find out any mistake or what I'm missing, please <a href="mailto:wordpressstack@gmail.com?Subject=WordPress%20Stack">shoot me an email</a>! You can also <a href="https://github.com/wpstack/wpstack.github.io/edit/master/homepage.md">edit the content directly</a>.</p>
-  </div>
-  <div class="cx5 fright">
-    <table>
-      <caption>Table of contents</caption>
-      <tr><th><a href="#wordpress-the-good-parts">1. WordPress the good parts</a></th></tr>   
-      <tr><th><a href="#wordpress-the-bad-parts">2. WordPress the bad parts</a></th></tr>            
-      <tr><th><a href="#wordpress-and-modern-php">3. WordPress and modern PHP</a></th></tr>
-      <tr><th><a href="#wordpress-without-the-loop">4. WordPress without the loop</a></th></tr>
-      <tr><th><a href="#wordpress-project-from-scratch">5. WordPress project from scratch</a></th></tr>
-    </table>
-    {% include icon-github.html username=site.github_username %} |
-    {% include icon-twitter.html username=site.twitter_username %}
-  </div>
-</div>
-
 ## 1. WordPress the good parts
 
 ### 1.1. Usability
 
-WordPress UI is so friendly that everyone can master it quickly. In addition, there're many page-builder tools and customizer API which make it extra friendly for end user.
+WordPress UI is so friendly that everyone can master it quickly. In addition, there're Customizer API and many page-builder tools which make WordPress extra friendly for end user.
 
 ### 1.2. Flexibility
 
-WordPress is famous for its flexibility by an enormous library of hooks, themes and plugins. You can use it for a blog, a small shop, a simple forum or even intranet sites of your company.
+WordPress is famous for its flexibility by an enormous library of hooks, themes and plugins. You can use WordPress for a blog, a small shop, a simple forum or even intranet sites of your company.
 
 ### 1.3. Configurations
 
-If you have deployed or maintained some WordPress apps, you should have found out how powerful is the `wp-config.php` file. You can see [editing wp-config.php](https://codex.wordpress.org/Editing_wp-config.php) for more info. There're many really really well-planned constants.
+Though comment and permalink options are a bit technical, the separation of configurations between end users and developers in WordPress is so sweet.
+
+The `wp-config.php` file is also very powerful. You can see [editing wp-config.php](https://codex.wordpress.org/Editing_wp-config.php) for more info. There're many really really well-planned constants which make WordPress more portable and easier to maintain.
+
+There're [many more features](https://wordpress.org/about/features/) WordPress can offer.
 
 ## 2. WordPress the bad parts
 
-### 2.1. Insecure platform
+### 2.1. Insecure CMS
 
 WordPress core is basically secure but low quality themes, 3rd plugins, entry level of programmer and users who lack of knowledge about security... are still big security holes in WordPress ecosystem.
 
 ### 2.2. Low level of abstraction
 
-Dive into WordPress, you will see how tightly things are connected. There're too many assumptions which make you feel like you have to solve a half solved problem of someone else before solving your problem. Well, how ridiculous it is: creating a problem then try to fix it by creating a half built solution.
+Dive into WordPress, you will see how tightly things are connected. There're too many assumptions which make you feel like you have to solve a half solved problem of someone else before solving your problem. Well, how ridiculous it is: try to fix a problem by creating a half built solution or a solution which create another problem.
 
 ### 2.3. Messy code with ridiculous best practices
 
 Dive into WordPress, you will also find out a lot of [premature optimization](http://c2.com/cgi/wiki?PrematureOptimization), unnecessary re-computation, backwards compatibility, [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code), inconsistent conventions and a clumsy [event-driven architecture](https://en.wikipedia.org/wiki/Event-driven_architecture)...
 
-So, now you know, WordPress is good for [end user](https://en.wikipedia.org/wiki/End_user) and bad for developers. But that's none of our business. It works so client doesn't care. It's easy so entry level programmer doesn't matter. WordPress is for everyone, not just developers. Don't underestimate how important it is for average users who just want some business utilities which are easy to use. The real business for developers is: **Write efficient themes and plugins which are maintainable and expandable**.
+So, now you know, WordPress is nice for [end user](https://en.wikipedia.org/wiki/End_user) and bad for developers. But that's none of our business. It works so client doesn't care. It's easy so entry level programmer doesn't matter. WordPress is for everyone, not just developers. Don't underestimate how important it is for average users who just want some business utilities which are easy to use. The real business for developers is: **Write efficient themes and plugins which are maintainable and expandable**.
 
 ## 3. WordPress and modern PHP
 
@@ -208,8 +193,8 @@ class ThemeName
   {
     $suffix = SCRIPT_DEBUG ? '.js' : '.min.js';
 
-    $this->manager->add('foo', {uri_to_foo_script} . $suffix, [], self::VERSION, 1);
-    $this->manager->add('bar', {uri_to_bar_script} . $suffix, ['foo'], self::VERSION, 1);    
+    $this->script_manager->add('foo', {uri_to_foo_script} . $suffix, [], self::VERSION, 1);
+    $this->script_manager->add('bar', {uri_to_bar_script} . $suffix, ['foo'], self::VERSION, 1);    
   }
 }
 {% endhighlight %}
@@ -236,7 +221,7 @@ This is a workflow which I use for recent projects:
 
 **There're some rules in this workflow**:
 
-  - Source code is maintained in a Git server and database is maintained in a production server. After source code and database has been built successfully, they should be shipped to staging server automatically. Many [CI](https://en.wikipedia.org/wiki/Continuous_integration) containers help to do that, such as [Jenkins](https://jenkins.io), [Dockers](https://www.docker.com) or [Travis](https://travis-ci.org)...
+  - Source code is maintained in a Git server and database is maintained in a production server. After source code and database has been built successfully, they should be shipped to staging server automatically. Many [CI](https://en.wikipedia.org/wiki/Continuous_integration) containers help to do that, such as [Jenkins](https://jenkins.io), [Travis](https://travis-ci.org)...
   - From dev to production, source code should always go up (push) and database should always go down (pull). This process is to make sure that we always deliver latest version of code and use latest version of database.
   - To avoid mistakes and unwanted delays, dev server should never interact with production server directly. The only exception is, because database is always neutral and adaptable, it's fine to push it directly from dev server to production server on the very first time.
   - You must have permission to access the production server.
@@ -251,6 +236,6 @@ The biggest challenge while scaling an WordPress application is the database. Wo
 
 ### 5.2. End user capability
 
-In a long-term support, maintaining a production application where end users can install themes and plugins is always a nightmare! If clients don't require those capabilities, you should disable it completely.
+In a long-term support, maintaining a WordPress application where end users can install themes and plugins is always a nightmare! If clients don't require those capabilities, you should disable it completely.
 
 If you want to know more about how I start a new project, you can check out [wp-scratch](https://github.com/wp-scratch) - a highly flexible WordPress application skeleton.
